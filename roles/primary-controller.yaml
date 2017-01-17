@@ -1,0 +1,8 @@
+configuration:
+  nova_config:
+    'DEFAULT/debug':
+      value: True
+      notify: Service[nova-api]
+  service:
+    nova-api:
+      ensure: running

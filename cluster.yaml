@@ -1,0 +1,4 @@
+configuration:
+  sysctl_runtime:
+    net.core.somaxconn:
+      value: 8192
